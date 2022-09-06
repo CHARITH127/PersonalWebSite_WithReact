@@ -1,0 +1,28 @@
+.navbar{
+    font-size: 2rem !important;
+}
+
+.logoContainer{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    color: #e2e8ec;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1.4rem;
+}
+.logo{
+    font-size: 2rem !important;
+    color: #ff014f !important;
+    margin: 0;
+}
+
+.sectionItems{
+    text-transform: uppercase;
+    color: #b3b3b3 !important;
+    cursor: pointer;
+}
+
+.sectionItems:hover{
+    color: #ff014f !important;
+}

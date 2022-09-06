@@ -1,0 +1,172 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.projectsCard{
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    text-align: center;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbcbcb, -0.25rem -0.25rem 0.5rem #ffffff;
+}
+
+.projectsCard .projectsImage{
+    height: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsCard .projectsImage img{
+    width: 34rem;
+}
+
+.projectsCard h3{
+    font-size: 2.5rem;
+    margin-bottom: 1.4rem;
+}
+
+.projectsCard h3 span{
+    color: #ff014f;
+}
+
+.projectsCard p{
+    font-size: 1.8rem;
+    color: #3a4042;
+}
+
+.projectsBtn_shadow{
+    margin-top: 1.4rem;
+    padding: 18px 25px;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+    font-size: 2.4rem;
+}
+
+.projectsBtn_shadow {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.projectsBtn_shadow:hover{
+    color: #ff014f;
+}
+
+/*================== media queries ===================================*/
+@media (min-width: 319px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .projects{
+        padding: 0 3rem;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (min-width: 1400px) {
+    .projects{
+        padding: 0 15rem;
+    }
+
+
+}
+
+
+@media (max-width: 575.98px) {
+    .projects{
+        padding:0;
+    }
+
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+
+    .projectsCard .projectsImage{
+        height: 20rem;
+    }
+
+    .projectsCard .projectsImage img{
+        height: 17rem;
+    }
+
+    .projectsCard p{
+        font-size: 1.4rem;
+    }
+
+
+
+}
+
+
+@media (max-width: 767.98px) {
+    .projects{
+        padding:0;
+    }
+
+
+
+}
+
+@media (max-width: 991.98px) {
+    .projects{
+        padding:0 3rem;
+    }
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+
+
+
+}
+
+
+@media (max-width: 1199.98px) {
+    .projectsCard .projectsImage{
+        height: 20rem;
+    }
+
+    .projectsCard .projectsImage img{
+        width: 24rem;
+    }
+
+    .projectsCard p{
+        font-size: 1.4rem;
+    }
+    .projectsBtn_shadow{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 1399.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {  }

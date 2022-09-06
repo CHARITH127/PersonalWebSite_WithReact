@@ -1,0 +1,183 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.contactContent{
+    width: 50%;
+}
+
+.contactContent .title{
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+}
+
+.contactContent .info h3{
+    font-size: 2.5rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    color: #3a4042;
+}
+.contactContent .info h3 a{
+    text-decoration: none;
+    color: #3a4042;
+}
+.contactContent .info h3 i{
+    margin-right: 1.4rem;
+    color: #ff014f;
+}
+
+.contactForm{
+    width: 100%;
+}
+
+.contactForm .box{
+    height: 5rem;
+    font-size: 2rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    border: none;
+    color: #3a4042;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbcbcb, -0.25rem -0.25rem 0.5rem #ffffff;
+}
+
+.contactForm .message{
+    height: 18rem;
+}
+
+.contactBtn_shadow{
+    margin-top: 1.4rem;
+    padding: 18px 25px;
+    border-radius: 6px;
+    font-size: 1.8rem;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+    font-size: 2.4rem;
+}
+
+.contactBtn_shadow {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 0.25rem 0.25rem 0.5rem #cbcbcb, -0.25rem -0.25rem 0.5rem #ffffff;
+}
+
+.contactBtn_shadow:hover{
+    color: #ff014f;
+}
+.contactBtn_shadow i{
+    margin-left: 1.8rem;
+}
+
+/*================== media queries ===================================*/
+@media (min-width: 319px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .contact{
+        padding: 0 3rem;
+    }
+
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .contact{
+        padding: 0 3rem;
+    }
+
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .contact{
+        padding: 0 15rem;
+    }
+
+
+}
+
+
+@media (max-width: 575.98px) {
+    .contact{
+        padding:0;
+    }
+
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+
+    .contactContent{
+        width: 100%;
+    }
+
+    .contactContent .title{
+        font-size: 2.8rem;
+    }
+
+    .contactContent .info h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+    .contact{
+        padding:0;
+    }
+
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+    .contactContent{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 991.98px) {
+    .contact{
+        padding:0 3rem;
+    }
+    .headingContainer h2{
+        font-size:3rem ;
+    }
+
+    .contactContent{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 1199.98px) {
+
+}
+
+
+@media (max-width: 1399.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {  }
